@@ -1,0 +1,186 @@
+header{
+  border-radius: 10px 10px 0px 0px;
+  background:  #5b7989;
+  animation-name: cabecera;
+  animation-duration: 1s;
+}
+body{
+  font-family: Dancing Script;
+  background: #02010a;
+}
+header h1{
+  color: white;
+  text-shadow: 2px 2px #02010a;
+}
+.subrayado{
+  text-decoration: none;
+}
+img{
+  box-shadow: 2px 2px #02010a;
+}
+header a{
+  color: white;
+  margin: auto;
+}
+#imgcentral{
+    background: #82c3a6;
+    display: none;
+}
+#imgsecundaria{
+    background: #d5c75f;
+}
+#imgizquierda{
+  display: none;
+}
+footer{
+  border-radius: 0px 0px 10px 10px;
+  background: #C6d5c5;
+}
+footer a{
+  color: black;
+  text-decoration: none;
+}
+
+@-webkit-keyframes cabecera{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+@media screen and (min-width:900px){
+  #contenido{
+    width: 900px;
+    margin: auto;
+  }
+  header{
+    height: 100px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+  }
+  #imgcentral{
+    padding: 20px;
+  }
+  .centro{
+    margin: auto;
+    display: block;
+    width: 80%;
+  }
+  #enlaces {
+    margin: auto 0 auto auto;
+  }
+  #imgsecundaria{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+  }
+  #imgderecha{
+    padding: 20px;
+    margin: auto;
+  }
+  #imgizquierda{
+    padding: 20px;
+    margin: auto;
+  }
+  .izquierda{
+    width: 100%;
+  }
+  .derecha{
+    width: 100%;
+  }
+  footer{
+    display: flex;
+  }
+  #contacto{
+    padding: 20px;
+    display: block;
+    text-align: justify;
+  }
+  #termino{
+    margin-left: auto;
+    padding: 20px;
+    display: block;
+    text-align: justify;
+  }
+  #redessociales{
+    margin-left: auto;
+    padding: 20px;
+    display: block;
+    text-align: justify;
+  }
+  #derechos{
+    margin-left: auto;
+    padding: 20px;
+    display: block;
+    text-align: justify;
+  }
+}
+@media all and (max-width:899px){
+  #contenido{
+    width: 100%;
+
+  }
+  header{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  #enlaces {
+    width: 100%;
+  }
+  #imgcentral{
+    width: 100%;
+  }
+  #imgprincipal{
+    padding: 20px;
+    margin: auto;
+  }
+  .centro{
+    width: 100%;
+  }
+  #imgsecundaria{
+    width: 100%;
+  }
+  #imgderecha{
+    padding: 20px;
+    margin: auto;
+  }
+  #imgizquierda{
+    padding: 20px;
+    margin: auto;
+  }
+  .izquierda{
+    width: 100%;
+  }
+  .derecha{
+    width: 100%;
+  }
+  #contacto{
+    padding: 20px;
+    display: block;
+    text-align: justify;
+  }
+  #termino{
+    margin-left: auto;
+    padding: 20px;
+    display: block;
+    text-align: justify;
+  }
+  #redessociales{
+    margin-left: auto;
+    padding: 20px;
+    display: block;
+    text-align: justify;
+  }
+  #derechos{
+    margin-left: auto;
+    padding: 20px;
+    display: block;
+    text-align: justify;
+  }
+}
