@@ -32,6 +32,29 @@ header a{
 #imgizquierda{
   display: none;
 }
+.derecha{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+.efecto1{
+  -webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+.efecto2{
+
+}
+.efecto3{
+  -webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
+.efecto4{
+  -webkit-filter:sepia(90%);
+	filter: sepia(90%);
+}
+.efecto5{
+  -webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+}
 footer{
   border-radius: 0px 0px 10px 10px;
   background: #C6d5c5;
@@ -91,7 +114,22 @@ footer a{
     width: 100%;
   }
   .derecha{
-    width: 100%;
+    margin: 5px;
+  }
+  .efecto1{
+    margin: 5px;
+  }
+  .efecto2{
+    margin: 5px;
+  }
+  .efecto3{
+    margin: 5px;
+  }
+  .efecto4{
+    margin: 5px;
+  }
+  .efecto5{
+    margin: 5px;
   }
   footer{
     display: flex;
@@ -158,6 +196,27 @@ footer a{
     width: 100%;
   }
   .derecha{
+    margin: 20px 20px 20px 0px;
+    width: 100%;
+  }
+  .efecto1{
+    margin: 20px 20px 20px 0px;
+    width: 100%;
+  }
+  .efecto2{
+    margin: 20px 20px 20px 0px;
+    width: 100%;
+  }
+  .efecto3{
+    margin: 20px 20px 20px 0px;
+    width: 100%;
+  }
+  .efecto4{
+    margin: 20px 20px 20px 0px;
+    width: 100%;
+  }
+  .efecto5{
+    margin: 20px 20px 20px 0px;
     width: 100%;
   }
   #contacto{
